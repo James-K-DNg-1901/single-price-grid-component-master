@@ -13,6 +13,13 @@ h1 {
     color: hsl(179, 52%, 52%);
 }
 
+h4 {
+    font-size: 3rem;
+    font-family: 'Karla', sans-serif;
+    font-weight: 700;
+    margin: 2rem auto;
+}
+
 p {
     font-size: 0.8rem;
     line-height: 1.7;
@@ -33,6 +40,15 @@ span {
     font-weight: 400;
 }
 
+li {
+    list-style: none;
+    font-family: 'Karla', sans-serif;
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: hsl(204, 43%, 93%);
+    margin-top: 0.8rem;
+}
+
 .container {
     width: 40rem;
     height: 30rem;
@@ -51,11 +67,11 @@ span {
 }
 
 .container__col {
-    padding: 0 3rem;
+    padding: 2rem;
 }
 
 .container__col-btn {
-    width: 14rem;
+    width: 17rem;
     height: 3rem;
     background-color: hsl(71, 73%, 54%);
     display: flex;
@@ -65,9 +81,6 @@ span {
     margin-top: 1rem
 }
 
-.col-pr {
-    padding-right: 6rem;
-}
 
 .bg-1 {
     background-color: hsl(179, 62%, 43%);
@@ -92,21 +105,28 @@ span {
 
 @media (max-width: 800px) {
     .container {
-        width: 20rem;
-        height: 45rem;
+        width: 21rem;
+        height: 60rem;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr 1fr;
     }
 
     .container__col-1 {
-        width: 20rem;
+        width: 17rem;
         height: 15rem;
         padding: 2rem;
     }
 
     .container__col {
-        width: 20rem;
-        height: 15rem;
+        width: 17rem;
+        height: 16rem;
+    }
+
+    .bg-1 {
+        border-radius: 0;
+    }
+    .bg-2 {
+        border-radius: 0 0 10px 10px;
     }
     .row-1 {
         grid-row: 1;
@@ -127,5 +147,9 @@ span {
     p {
         width: 12rem;
         margin: 0;
+    }
+
+    li {
+        font-size: 0.9rem;
     }
 }
