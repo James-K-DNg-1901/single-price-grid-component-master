@@ -17,12 +17,13 @@ h4 {
     font-size: 3rem;
     font-family: 'Karla', sans-serif;
     font-weight: 700;
-    margin: 2rem auto;
+    margin: 0;
 }
 
 p {
     font-size: 0.8rem;
     line-height: 1.7;
+    margin: 0;
 }
 
 span {
@@ -46,7 +47,7 @@ li {
     font-size: 0.8rem;
     font-weight: 400;
     color: hsl(204, 43%, 93%);
-    margin-top: 0.8rem;
+    margin-top: 0.3rem;
 }
 
 .container {
@@ -62,7 +63,7 @@ li {
 
 .container__col-1 {
     grid-column: span 2;
-    padding: 3rem;
+    padding: 2rem 3rem;
     border-radius: 10px;
 }
 
